@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: turquoise;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px black;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+section ul li span {
+  display: inline-block;
+  width: 30%;
+}
